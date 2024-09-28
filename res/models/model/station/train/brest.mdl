@@ -1,0 +1,180 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 28.996200561523, 67.51000213623, 37.450904846191, },
+		bbMin = { -29, -35.409999847412, -0.21736200153828, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 28.996200561523, 50.361446380615, 18.834133148193, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/gare/brest/acgarebrest02.mtl", },
+						mesh = "asset/gare/brest/garebrest2_lod0.msh",
+						name = "garebrest2",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.51200008392334, 32.274745941162, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/brest/acgarebrest04.mtl", },
+						mesh = "asset/gare/brest/garebrest4_lod0.msh",
+						name = "garebrest4",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.51200008392334, 32.274745941162, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/brest/acgarebrest06.mtl", },
+						mesh = "asset/gare/brest/garebrest6_lod0.msh",
+						name = "garebrest6",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.51200008392334, 32.274745941162, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/brest/acgarebrest03.mtl", },
+						mesh = "asset/gare/brest/garebrest3_lod0.msh",
+						name = "garebrest3",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.51200008392334, 32.274745941162, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/brest/acgarebrest07.mtl", },
+						mesh = "asset/gare/brest/garebrest7_lod0.msh",
+						name = "garebrest7",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.51200008392334, 32.274745941162, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/brest/blank.mtl", },
+						mesh = "asset/gare/brest/blank_lod0.msh",
+						name = "blank",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.51200008392334, 32.274745941162, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/brest/acgarebrest05.mtl", },
+						mesh = "asset/gare/brest/garebrest5_lod0.msh",
+						name = "garebrest5",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.51200008392334, 32.274745941162, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/brest/acgarebrest17.mtl", },
+						mesh = "asset/gare/brest/garebrest17_lod0.msh",
+						name = "garebrest17",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.51200008392334, 32.274745941162, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/brest/acgarebrest15_ace.mtl", },
+						mesh = "asset/gare/brest/garebrest15_lod0.msh",
+						name = "garebrest15",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.51200008392334, 32.274745941162, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/brest/acgarebrest16.mtl", },
+						mesh = "asset/gare/brest/garebrest16_lod0.msh",
+						name = "garebrest16",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.51200008392334, 32.274745941162, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/brest/acgarebrest20.mtl", },
+						mesh = "asset/gare/brest/garebrest20_lod0.msh",
+						name = "garebrest20",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.51200008392334, 32.274745941162, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/brest/acgarebrest19.mtl", },
+						mesh = "asset/gare/brest/garebrest19_lod0.msh",
+						name = "garebrest19",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.51200008392334, 32.274745941162, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/brest/acgarebrest18.mtl", },
+						mesh = "asset/gare/brest/garebrest18_lod0.msh",
+						name = "garebrest18",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.51200008392334, 32.274745941162, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/brest/acgarebrest09.mtl", },
+						mesh = "asset/gare/brest/garebrest9_lod0.msh",
+						name = "garebrest9",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.51200008392334, 32.274745941162, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/brest/acgarebrest12.mtl", },
+						mesh = "asset/gare/brest/garebrest12_lod0.msh",
+						name = "garebrest12",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.51200008392334, 32.274745941162, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/brest/acgarebrest10.mtl", },
+						mesh = "asset/gare/brest/garebrest10_lod0.msh",
+						name = "garebrest10",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.51200008392334, 32.274745941162, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/brest/acgarebrest11.mtl", },
+						mesh = "asset/gare/brest/garbrest11_lod0.msh",
+						name = "garbrest11",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.51200008392334, 32.274745941162, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/brest/acgarebrest14.mtl", },
+						mesh = "asset/gare/brest/garebrest14_lod0.msh",
+						name = "garebrest14",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.51200008392334, 32.274745941162, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/brest/acgarebrest13.mtl", },
+						mesh = "asset/gare/brest/garebrest13_lod0.msh",
+						name = "garebrest13",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.51200008392334, 32.274745941162, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/brest/acgarebrest01.mtl", },
+						mesh = "asset/gare/brest/garebrest1_lod0.msh",
+						name = "garebrest1",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.51200008392334, 32.274745941162, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/brest/acgarebrest21.mtl", },
+						mesh = "asset/gare/brest/garebrest21_lod0.msh",
+						name = "garebrest21",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.51200008392334, 32.274745941162, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { -1, -6.2783294652036e-07, 0, 0, 6.2783294652036e-07, -1, 0, 0, 0, 0, 1, 0, 0, 16.840000152588, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 15387.61328125,
+		},
+	},
+	metadata = {
+		transportNetworkProvider = {
+			laneLists = {
+				{
+					linkable = true,
+					nodes = {
+						{
+							{ -2.7999999523163, -34.799999237061, 0, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+						{
+							{ -2.7999999523163, 0.25, 1.2000000476837, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+					},
+					speedLimit = 20,
+					transportModes = { "PERSON", },
+				},
+			},
+			runways = { },
+			terminals = { },
+		},
+	},
+	version = 1,
+}
+end
