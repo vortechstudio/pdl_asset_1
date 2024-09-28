@@ -1,0 +1,54 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 103.96905517578, 15.862600326538, 14.85000038147, },
+		bbMin = { -103.96905517578, -15.862600326538, -0.1499989926815, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 103.96905517578, 15.862600326538, 7.4999995231628, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/batiment/nantes/nantes_messagerie/Nantes14_ace.mtl", },
+						mesh = "asset/batiment/nantes/nantes_messagerie/Box151_lod0.msh",
+						name = "Box151",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -9.2899513244629, 0.15309953689575, 0, 1, },
+					},
+					{
+						materials = { "asset/batiment/nantes/nantes_messagerie/afs00050_ace.mtl", },
+						mesh = "asset/batiment/nantes/nantes_messagerie/Box277_lod0.msh",
+						name = "Box277",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -9.2899513244629, 0.15309953689575, 0, 1, },
+					},
+					{
+						materials = { "asset/batiment/nantes/nantes_messagerie/Nantes13_ace.mtl", },
+						mesh = "asset/batiment/nantes/nantes_messagerie/Box337_lod0.msh",
+						name = "Box337",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -9.2899513244629, 0.15309953689575, 0, 1, },
+					},
+					{
+						materials = { "asset/batiment/nantes/nantes_messagerie/Nantes15_ace.mtl", },
+						mesh = "asset/batiment/nantes/nantes_messagerie/Box397_lod0.msh",
+						name = "Box397",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -9.2899513244629, 0.15309953689575, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 15619.958007813,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

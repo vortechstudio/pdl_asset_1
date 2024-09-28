@@ -1,0 +1,74 @@
+local transf = require "transf"
+local vec3 = require "vec3"
+local modulesutil = require "modulesutil"
+local constructionutil = require "constructionutil"
+local trainstationutil = require "modules/trainstationutil"
+
+function data()
+    return {
+        cost = {
+            price = -1,
+        },
+        category = {
+            categories = { "passenger buildings", "PDL", },
+        },
+        description = {
+            name = _("Gare de La Baule - Les Pins"),
+            --description = _("Gare de Cro"),
+            icon = "ui/construction/station/rail/modular_station/la_baule_les_pins.tga"
+        }, 
+        availability = {
+            yearFrom = 1900,
+            yearTo = 0
+        },
+        type = "rail_side_building_size1",
+        order = {
+            value = 3501,
+        },
+        metadata = {
+            era = 0,
+            level =2,
+            span = {0, 2},
+            moreCapacity = {
+                cargo = 0,
+                passenger = 20
+            }
+        },
+        updateFn = function(result, transform, tag, slotId, addModuleFn, params)
+            local config = {
+                extend = { -45.03, 45.03, -7.22, 7.22, 0.01, 14.84 },
+                main = "station/train/la_baule_les_pins.mdl",
+
+                slotIdOffset = 5,
+                translationY = 0,
+            }
+            result.groundFaces = {
+                {  
+                face = { { -0.01, -0.01, 0 }, { 0.01, -0.01, 0 }, { 0.01, 0.01, 0 } },
+                modes = {
+                    {
+                        type = "FILL",               
+                        key = "industry_floor.lua"
+                    }
+                },
+                loop = true,
+                alignmentOffsetMode = "OBJECT",
+                alignmentDirMode = "OBJECT",
+                alignmentOffset = { -2.0, -1.0 },
+                },
+            }
+            trainstationutil.MakeMainBuildingModule(result, transform, tag, slotId, addModuleFn, params, config)
+        end,
+        getModelsFn = function()
+		
+            local result = {
+                { 
+                    id = "station/train/la_baule_les_pins.mdl",
+                    transf = transf.rotZTransl(math.rad(-90), vec3.new(10,0,-12)),
+                },
+            }
+            
+            return result
+        end
+    }
+end

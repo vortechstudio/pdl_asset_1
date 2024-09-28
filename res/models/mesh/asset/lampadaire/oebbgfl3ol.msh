@@ -1,0 +1,54 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, }, 
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 3192,
+					offset = 7764,
+				},
+				position = {
+					count = 3192,
+					offset = 17340,
+				},
+				tangent = {
+					count = 3192,
+					offset = 14148,
+				},
+				uv0 = {
+					count = 3192,
+					offset = 10956,
+				},
+			},
+			materials = {
+				"asset/oebbgfl3.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 1500,
+			numComp = 3,
+			offset = 0,
+		},
+		position = {
+			count = 1872,
+			numComp = 3,
+			offset = 5892,
+		},
+		tangent = {
+			count = 2768,
+			numComp = 4,
+			offset = 3124,
+		},
+		uv0 = {
+			count = 1624,
+			numComp = 2,
+			offset = 1500,
+		},
+	},
+}
+end

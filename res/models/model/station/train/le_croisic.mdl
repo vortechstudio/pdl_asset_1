@@ -1,0 +1,139 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 33.228099822998, 6.5654802322388, 9.7781095504761, },
+		bbMin = { -33.228103637695, -6.5654802322388, 0.42857098579407, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 33.228103637695, 6.5654802322388, 4.6747694015503, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "station/train/le_croisic/GareLeCroisic2.mtl", },
+						mesh = "station/train/le_croisic/Box1_lod0.msh",
+						name = "Box1",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -2.0190000534058, -0.73626017570496, 0, 1, },
+					},
+					{
+						materials = { "station/train/le_croisic/afs00190.mtl", },
+						mesh = "station/train/le_croisic/Box85_lod0.msh",
+						name = "Box85",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -2.0190000534058, -0.73626017570496, 0, 1, },
+					},
+					{
+						materials = { "station/train/le_croisic/afs00034.mtl", },
+						mesh = "station/train/le_croisic/Box133_lod0.msh",
+						name = "Box133",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -2.0190000534058, -0.73626017570496, 0, 1, },
+					},
+					{
+						materials = { "station/train/le_croisic/afs00675.mtl", },
+						mesh = "station/train/le_croisic/Box271_lod0.msh",
+						name = "Box271",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -2.0190000534058, -0.73626017570496, 0, 1, },
+					},
+					{
+						materials = { "station/train/le_croisic/GareLeCroisic.mtl", },
+						mesh = "station/train/le_croisic/Box355_lod0.msh",
+						name = "Box355",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -2.0190000534058, -0.73626017570496, 0, 1, },
+					},
+					{
+						materials = { "station/train/le_croisic/GarePornichet2.mtl", },
+						mesh = "station/train/le_croisic/Box472_lod0.msh",
+						name = "Box472",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -2.0190000534058, -0.73626017570496, 0, 1, },
+					},
+					{
+						materials = { "station/train/le_croisic/prg5_t37.mtl", },
+						mesh = "station/train/le_croisic/Box712_lod0.msh",
+						name = "Box712",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -2.0190000534058, -0.73626017570496, 0, 1, },
+					},
+					{
+						materials = { "station/train/le_croisic/afs00050_ace.mtl", },
+						mesh = "station/train/le_croisic/Box736_lod0.msh",
+						name = "Box736",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -2.0190000534058, -0.73626017570496, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { -1, -8.7422776573476e-08, 0, 0, 8.7422776573476e-08, -1, 0, 0, 0, 0, 1, 0, 0, -3.75, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 5520.1142578125,
+		},
+	},
+	metadata = {
+		transportNetworkProvider = {
+			laneLists = {
+				{
+					linkable = false,
+					nodes = {
+						{
+							{ -4, -14, 0, },
+							{ 0, 20, 0, },
+							30,
+						},
+						{
+							{ -4, -4.4000000953674, 0.55000001192093, },
+							{ 0, 20, 0, },
+							30,
+						},
+						{
+							{ -11.800000190735, -14, 0, },
+							{ 0, 20, 0, },
+							30,
+						},
+						{
+							{ -11.800000190735, -4.4000000953674, 0.55000001192093, },
+							{ 0, 20, 0, },
+							30,
+						},
+					},
+					speedLimit = 20,
+					transportModes = { "PERSON", },
+				},
+				{
+					linkable = true,
+					nodes = {
+						{
+							{ -4, -4.3000001907349, 0.55000001192093, },
+							{ 0, 20, 0, },
+							30,
+						},
+						{
+							{ -4, 2.2000000476837, 0.55000001192093, },
+							{ 0, 20, 0, },
+							30,
+						},
+						{
+							{ -11.800000190735, -4.3000001907349, 0.55000001192093, },
+							{ 0, 20, 0, },
+							30,
+						},
+						{
+							{ -11.800000190735, 2.2000000476837, 0.55000001192093, },
+							{ 0, 20, 0, },
+							30,
+						},
+					},
+					speedLimit = 20,
+					transportModes = { "PERSON", },
+				},
+			},
+			runways = { },
+			terminals = { },
+		},
+	},
+	version = 1,
+}
+end

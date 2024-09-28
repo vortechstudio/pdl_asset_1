@@ -1,0 +1,54 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 53.912147521973, 34.076751708984, 17.888799667358, },
+		bbMin = { -53.912155151367, -34.076751708984, -3.2840900421143, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 53.91215133667, 34.076751708984, 10.586444854736, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/gare/saint_nazaire/GareStNazaire.mtl", "asset/gare/saint_nazaire/GareStNazaire3.mtl", "asset/gare/saint_nazaire/GareStNazaire2.mtl", },
+						mesh = "asset/gare/saint_nazaire/Gare_lod0.msh",
+						name = "Gare",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -1.6680507659912, -13.973249435425, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/saint_nazaire/afs00050.mtl", "asset/gare/saint_nazaire/afs00052.mtl", "asset/gare/saint_nazaire/afs00058.mtl", "asset/gare/saint_nazaire/afs00034.mtl", "asset/gare/saint_nazaire/afs00790.mtl", "asset/gare/saint_nazaire/afs00123.mtl", "asset/gare/saint_nazaire/afs00872.mtl", },
+						mesh = "asset/gare/saint_nazaire/Box151_lod0.msh",
+						name = "Box151",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -1.6680507659912, -13.973249435425, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/saint_nazaire/blank.mtl", "asset/gare/saint_nazaire/prg5_t01.mtl", "asset/gare/saint_nazaire/GareLimoges7.mtl", },
+						mesh = "asset/gare/saint_nazaire/Box286_lod0.msh",
+						name = "Box286",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -1.6680507659912, -13.973249435425, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/saint_nazaire/QuaiMarseille.mtl", "asset/gare/saint_nazaire/Escalier1.mtl", "asset/gare/saint_nazaire/BitumeQuai2_ace.mtl", "asset/gare/saint_nazaire/QuaiLimoges.mtl", "asset/gare/saint_nazaire/BitumeQuai.mtl", },
+						mesh = "asset/gare/saint_nazaire/Box469_lod0.msh",
+						name = "Box469",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -1.6680507659912, -13.973249435425, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 17369.7109375,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

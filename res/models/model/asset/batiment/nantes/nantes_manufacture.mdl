@@ -1,0 +1,90 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 77.790954589844, 10.291375160217, 18.0172996521, },
+		bbMin = { -77.790954589844, -10.291375160217, -0.048978999257088, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 77.790954589844, 10.291375160217, 9.0331392288208, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						children = {
+							{
+								materials = { "asset/batiment/nantes/nantes_manufacture/Nantes6_ace.mtl", },
+								mesh = "asset/batiment/nantes/nantes_manufacture/Box1_lod0.msh",
+								name = "Box1",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.0427513122559, 8.9841604232788, 3.6914246082306, 1, },
+							},
+							{
+								materials = { "asset/batiment/nantes/nantes_manufacture/blank_ace.mtl", },
+								mesh = "asset/batiment/nantes/nantes_manufacture/Box94_lod0.msh",
+								name = "Box94",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.0427513122559, 8.9841604232788, 3.6914246082306, 1, },
+							},
+							{
+								materials = { "asset/batiment/nantes/nantes_manufacture/afs00675_ace.mtl", },
+								mesh = "asset/batiment/nantes/nantes_manufacture/Box601_lod0.msh",
+								name = "Box601",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.0427513122559, 8.9841604232788, 3.6914246082306, 1, },
+							},
+							{
+								materials = { "asset/batiment/nantes/nantes_manufacture/afs00045_ace.mtl", },
+								mesh = "asset/batiment/nantes/nantes_manufacture/Box661_lod0.msh",
+								name = "Box661",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.0427513122559, 8.9841604232788, 3.6914246082306, 1, },
+							},
+							{
+								materials = { "asset/batiment/nantes/nantes_manufacture/grenat_ace.mtl", },
+								mesh = "asset/batiment/nantes/nantes_manufacture/Box769_lod0.msh",
+								name = "Box769",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.0427513122559, 8.9841604232788, 3.6914246082306, 1, },
+							},
+							{
+								materials = { "asset/batiment/nantes/nantes_manufacture/Nantes7_ace.mtl", },
+								mesh = "asset/batiment/nantes/nantes_manufacture/Box823_lod0.msh",
+								name = "Box823",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.0427513122559, 8.9841604232788, 3.6914246082306, 1, },
+							},
+							{
+								materials = { "asset/batiment/nantes/nantes_manufacture/afs00057_ace.mtl", },
+								mesh = "asset/batiment/nantes/nantes_manufacture/Box904_lod0.msh",
+								name = "Box904",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.0427513122559, 8.9841604232788, 3.6914246082306, 1, },
+							},
+							{
+								materials = { "asset/batiment/nantes/nantes_manufacture/afs00050_ace.mtl", },
+								mesh = "asset/batiment/nantes/nantes_manufacture/Box916_lod0.msh",
+								name = "Box916",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.0427513122559, 8.9841604232788, 3.6914246082306, 1, },
+							},
+							{
+								materials = { "asset/batiment/nantes/nantes_manufacture/Nantes8_ace.mtl", },
+								mesh = "asset/batiment/nantes/nantes_manufacture/Box922_lod0.msh",
+								name = "Box922",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.0427513122559, 8.9841604232788, 3.6914246082306, 1, },
+							},
+						},
+						name = "Batiment",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 0, 0, 8.9841604232788, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 11191.9375,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

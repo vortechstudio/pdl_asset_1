@@ -1,0 +1,84 @@
+local variant_00 = "asset/gare/nantes_nord.mdl"
+local variant_01 = "asset/gare/nantes_sud.mdl"
+local variant_02 = "asset/gare/le_croisic.mdl"
+local variant_03 = "asset/gare/la_baule_escoublac.mdl"
+local variant_04 = "asset/gare/la_baule_les_pins.mdl"
+local variant_05 = "asset/gare/saint_nazaire.mdl"
+local variant_06 = "asset/gare/ancenis.mdl"
+
+function data()
+    return {
+        type = "ASSET_DEFAULT",
+        description = {
+            name = _("Gare"),
+            description = _("Ensemble de Gare Pays de la Loire / Bretagne"),
+            icon = "ui/construction/asset/gare.tga",
+        },
+        buildMode = "MULTI",
+        categories = { "PDL" },
+        order = 1,
+        skipCollision = true,
+        autoRemovable = true,
+        params = {
+            {
+                key = "variant_gare", 
+                name = _("Variantes"), --Strings: ["asset_variants"] = "Variantes", --les petites images si tu veux les images
+                uiType = "COMBOBOX",
+                values = {	_("Gare Nantes Nord"),
+                            _("Gare Nantes Sud"),
+                            _("Le Croisic"),
+                            _("La Baule - Escoublac"),
+                            _("La Baule - Les Pins"),
+                            _("Saint Nazaire"),
+                            _("Ancenis"),
+                        },
+            },
+            {
+                key = "Assets_terrainAlignment",
+                name = _("Alignement de terrain"),
+                values = { _("Yes"), _("No") },
+                defaultIndex = 1
+            }
+        },
+           
+        updateFn = function(params)
+            local result = { }
+            result.models = { }
+            local grad = 0
+            local height = 0
+            local shiftm = 0
+            local spacingm = 0
+            local offsetz = 0
+
+            if ( params.variant_gare == 0 ) then result.models[#result.models+1] = { id = variant_00, transf = { 1, 0, grad, 0, 0, 1, 0, 0, grad, 0, 1, 0, spacingm, shiftm, height+offsetz, 1 } } end
+            if ( params.variant_gare == 1 ) then result.models[#result.models+1] = { id = variant_01, transf = { 1, 0, grad, 0, 0, 1, 0, 0, grad, 0, 1, 0, spacingm, shiftm, height+offsetz, 1 } } end
+            if ( params.variant_gare == 2 ) then result.models[#result.models+1] = { id = variant_02, transf = { 1, 0, grad, 0, 0, 1, 0, 0, grad, 0, 1, 0, spacingm, shiftm, height+offsetz, 1 } } end
+            if ( params.variant_gare == 3 ) then result.models[#result.models+1] = { id = variant_03, transf = { 1, 0, grad, 0, 0, 1, 0, 0, grad, 0, 1, 0, spacingm, shiftm, height+offsetz, 1 } } end
+            if ( params.variant_gare == 4 ) then result.models[#result.models+1] = { id = variant_04, transf = { 1, 0, grad, 0, 0, 1, 0, 0, grad, 0, 1, 0, spacingm, shiftm, height+offsetz, 1 } } end
+            if ( params.variant_gare == 5 ) then result.models[#result.models+1] = { id = variant_05, transf = { 1, 0, grad, 0, 0, 1, 0, 0, grad, 0, 1, 0, spacingm, shiftm, height+offsetz, 1 } } end
+            if ( params.variant_gare == 6 ) then result.models[#result.models+1] = { id = variant_06, transf = { 1, 0, grad, 0, 0, 1, 0, 0, grad, 0, 1, 0, spacingm, shiftm, height+offsetz, 1 } } end
+
+            result.groundFaces = {
+                {  
+                face = { { -0.01, -0.01, 0 }, { 0.01, -0.01, 0 }, { 0.01, 0.01, 0 } },
+                modes = {
+                    {
+                        type = "FILL",               
+                        key = "industry_floor.lua"
+                    }
+                },
+                loop = true,
+                alignmentOffsetMode = "OBJECT",
+                alignmentDirMode = "OBJECT",
+                alignmentOffset = { -2.0, -1.0 },
+                },
+            }
+
+            if params.Assets_terrainAlignment == 1 then
+                result.terrainAlignmentLists = { { type = "GREATER", faces =  { } } }
+            end
+            
+            return result
+        end
+    }
+end

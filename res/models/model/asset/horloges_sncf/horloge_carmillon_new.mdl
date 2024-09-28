@@ -1,0 +1,121 @@
+function data()
+	return {
+		boundingInfo = {
+			bbMax = { 0.1200003027916, 0.39999997615814, 0.40000006556511, },
+			bbMin = { -0.1200003027916, -0.39999997615814, -0.40000006556511, },
+		},
+		collider = {
+			params = {
+				halfExtents = { 0.1200003027916, 0.39999997615814, 0.40000006556511, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{
+				node = {
+					children = {
+						{
+							materials = { "asset/gare/horloges_sncf/horloge_carmillon_new.mtl", },
+							mesh = "asset/gare/horloges_sncf/horloge_lod0.msh",
+							name = "horloge",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							animations = {
+								seconds = {
+									params = {
+										id = "station/rail/asset/era_c_small_clock/seconds/era_c_seconds_small_1.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "asset/gare/horloges_sncf/horloge_carmillon_new.mtl", },
+							mesh = "asset/gare/horloges_sncf/aiguille_des_secondes_lod0.msh",
+							name = "aiguille_des_seondes",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, -0.1058119982481, 0, 1, },
+						},
+						{
+							animations = {
+								minutes = {
+									params = {
+										id = "station/rail/asset/era_c_small_clock/minutes/era_c_minutes_small_1.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "asset/gare/horloges_sncf/horloge_carmillon_new.mtl", },
+							mesh = "asset/gare/horloges_sncf/aiguille_des_minutes_lod0.msh",
+							name = "aiguille_des_minutes",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.1058119982481, 0, 1, },
+						},
+						{
+							animations = {
+								hours = {
+									params = {
+										id = "station/rail/asset/era_c_small_clock/hours/era_c_hours_small_1.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "asset/gare/horloges_sncf/horloge_carmillon_new.mtl", },
+							mesh = "asset/gare/horloges_sncf/aiguille_des_heures_lod0.msh",
+							name = "aiguilles_des_heures",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.1058119982481, 0, 1, },
+						},
+						{
+							animations = {
+								seconds = {
+									params = {
+										id = "station/rail/asset/era_c_small_clock/seconds/era_c_seconds_small_1.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "asset/gare/horloges_sncf/horloge_carmillon_new.mtl", },
+							mesh = "asset/gare/horloges_sncf/aiguille_des_secondes_lod0.msh",
+							name = "aiguille_des_seondes",
+							transf = { -1, -8.7422776573476e-08, 0, 0, 8.7422776573476e-08, -1, 0, 0, 0, 0, 1, 0, 0, 0.1058119982481, 0, 1, },
+						},
+						{
+							animations = {
+								minutes = {
+									params = {
+										id = "station/rail/asset/era_c_small_clock/minutes/era_c_minutes_small_1.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "asset/gare/horloges_sncf/horloge_carmillon_new.mtl", },
+							mesh = "asset/gare/horloges_sncf/aiguille_des_minutes_lod0.msh",
+							name = "aiguille_des_minutes",
+							transf = { -1, -8.7422776573476e-08, 0, 0, 8.7422776573476e-08, -1, 0, 0, 0, 0, 1, 0, 0, 0.1058119982481, 0, 1, },
+						},
+						{
+							animations = {
+								hours = {
+									params = {
+										id = "station/rail/asset/era_c_small_clock/hours/era_c_hours_small_1.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "asset/gare/horloges_sncf/horloge_carmillon_new.mtl", },
+							mesh = "asset/gare/horloges_sncf/aiguille_des_heures_lod0.msh",
+							name = "aiguilles_des_heures",
+							transf = { -1, -8.7422776573476e-08, 0, 0, 8.7422776573476e-08, -1, 0, 0, 0, 0, 1, 0, 0, 0.1058119982481, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { -4.3711388286738e-08, 1, -0, 0, -1, -4.3711388286738e-08, 0, 0, 0, 0, 1, 0, 0, 0, 2.4500000476837, 1, },
+				},
+				static = false,
+				visibleFrom = 0,
+				visibleTo = 239.3440246582,
+			},
+		},
+		metadata = { },
+		version = 1,
+	}
+	end
+	

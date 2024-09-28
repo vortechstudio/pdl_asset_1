@@ -1,0 +1,58 @@
+local transf = require "transf"
+local vec3 = require "vec3"
+local modulesutil = require "modulesutil"
+local constructionutil = require "constructionutil"
+local trainstationutil = require "modules/trainstationutil"
+
+function data()
+    return {
+        cost = {
+            price = -1,
+        },
+        category = {
+            categories = { "passenger buildings", "PDL", },
+        },
+        description = {
+            name = _("Gare de Nantes Nord"),
+            description = _("Gare de Nantes Nord"),
+            icon = "ui/construction/station/rail/modular_station/nantes_nord.tga"
+        }, 
+        availability = {
+            yearFrom = 1980,
+            yearTo = 0
+        },
+        type = "rail_side_building_size1",
+        order = {
+            value = 3501,
+        },
+        metadata = {
+            era = Gare_FR,
+            level =2,
+            span = {2, 2}
+        },
+        updateFn = function(result, transform, tag, slotId, addModuleFn, params)
+            local config = {
+                extend = { 11, -11, 0, -17, 4, 0 },
+                main = "station/train/nantes_nord.mdl",
+                con_left = "",
+                con_right = "",
+                end_left = "",
+                end_right = "",
+                slotIdOffset = 5,
+                translationY = 0,
+            }
+            trainstationutil.MakeMainBuildingModule(result, transform, tag, slotId, addModuleFn, params, config)
+        end,
+        getModelsFn = function()
+		
+            local result = {
+                { 
+                    id = "station/train/nantes_nord.mdl",
+                    transf = transf.rotZTransl(math.rad(-90), vec3.new(15,0,0)),
+                },
+            }
+            
+            return result
+        end
+    }
+end

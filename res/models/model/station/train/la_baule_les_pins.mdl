@@ -1,0 +1,125 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 45.026748657227, 7.2248859405518, 14.836700439453, },
+		bbMin = { -45.026752471924, -7.2248854637146, 0.0061240000650287, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 45.026748657227, 7.2248859405518, 7.4152884483337, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "station/train/la_baule_les_pins/afs00190.mtl", },
+						mesh = "station/train/la_baule_les_pins/Box1_lod0.msh",
+						name = "Box1",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.032649993896484, -1.3520851135254, 0, 1, },
+					},
+					{
+						materials = { "station/train/la_baule_les_pins/afs00034.mtl", },
+						mesh = "station/train/la_baule_les_pins/Box193_lod0.msh",
+						name = "Box193",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.032649993896484, -1.3520851135254, 0, 1, },
+					},
+					{
+						materials = { "station/train/la_baule_les_pins/blank.mtl", },
+						mesh = "station/train/la_baule_les_pins/Box241_lod0.msh",
+						name = "Box241",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.032649993896484, -1.3520851135254, 0, 1, },
+					},
+					{
+						materials = { "station/train/la_baule_les_pins/GareLaBauleLP.mtl", },
+						mesh = "station/train/la_baule_les_pins/Box373_lod0.msh",
+						name = "Box373",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.032649993896484, -1.3520851135254, 0, 1, },
+					},
+					{
+						materials = { "station/train/la_baule_les_pins/GareLaBauleLP2.mtl", },
+						mesh = "station/train/la_baule_les_pins/Box421_lod0.msh",
+						name = "Box421",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.032649993896484, -1.3520851135254, 0, 1, },
+					},
+					{
+						materials = { "station/train/la_baule_les_pins/afs00674.mtl", },
+						mesh = "station/train/la_baule_les_pins/Box445_lod0.msh",
+						name = "Box445",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.032649993896484, -1.3520851135254, 0, 1, },
+					},
+					{
+						materials = { "station/train/la_baule_les_pins/afs00196.mtl", },
+						mesh = "station/train/la_baule_les_pins/Box529_lod0.msh",
+						name = "Box529",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.032649993896484, -1.3520851135254, 0, 1, },
+					},
+					{
+						materials = { "station/train/la_baule_les_pins/afs00051.mtl", },
+						mesh = "station/train/la_baule_les_pins/Box733_lod0.msh",
+						name = "Box733",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.032649993896484, -1.3520851135254, 0, 1, },
+					},
+					{
+						materials = { "station/train/la_baule_les_pins/BitumeQuai.mtl", },
+						mesh = "station/train/la_baule_les_pins/Box763_lod0.msh",
+						name = "Box763",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.032649993896484, -1.3520851135254, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { -1, -6.2783294652036e-07, 0, 0, 6.2783294652036e-07, -1, 0, 0, 0, 0, 1, 0, 0, -6.4400000572205, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 6993.05859375,
+		},
+	},
+	metadata = {
+		transportNetworkProvider = {
+			laneLists = {
+				{
+					linkable = false,
+					nodes = {
+						{
+							{ 0, -11.5, 0.95999997854233, },
+							{ 0, 20, 0, },
+							30,
+						},
+						{
+							{ 0, -4.4000000953674, 0.95999997854233, },
+							{ 0, 20, 0, },
+							30,
+						},
+					},
+					speedLimit = 20,
+					transportModes = { "PERSON", },
+				},
+				{
+					linkable = true,
+					nodes = {
+						{
+							{ 0, -4.3000001907349, 0.95999997854233, },
+							{ 0, 20, 0, },
+							30,
+						},
+						{
+							{ 0, 0, 0.95999997854233, },
+							{ 0, 20, 0, },
+							30,
+						},
+					},
+					speedLimit = 20,
+					transportModes = { "PERSON", },
+				},
+			},
+			runways = { },
+			terminals = { },
+		},
+	},
+	version = 1,
+}
+end

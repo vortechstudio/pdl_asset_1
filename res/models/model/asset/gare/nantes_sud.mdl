@@ -1,0 +1,42 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 70, 10.90549659729, 18.85000038147, },
+		bbMin = { -70.001373291016, -11.39999961853, -6.6761728710309e-16, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 70.000686645508, 11.15274810791, 9.4250001907349, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/gare/nantes_sud/batiment.mtl", },
+						mesh = "asset/gare/nantes_sud/batiment_lod0.msh",
+						name = "batiment",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/nantes_sud/wall.mtl", },
+						mesh = "asset/gare/nantes_sud/wall_1_lod0.msh",
+						name = "wall_1",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 10719.62109375,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

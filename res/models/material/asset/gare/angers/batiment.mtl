@@ -1,0 +1,52 @@
+function data()
+return {
+	__version = "",
+	order = 0,
+	params = {
+		albedo_scale = {
+			albedoScale = { 1, 1, 1, },
+		},
+		color_blend = {
+			albedoScales = { 0, },
+			colors = {
+				{ 0, 0, 0, },
+			},
+		},
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_albedo = {
+			fileName = "models/asset/gare/angers/batiment_albedo_opacity.tga",
+			type = "TWOD",
+		},
+		map_cblend = {
+			fileName = "models/asset/gare/angers/batiment_color_dirt_rust.tga",
+			type = "TWOD",
+		},
+		map_metal_gloss_ao = {
+			fileName = "models/asset/gare/angers/batiment_metal_glass_ao.tga",
+			scaleDownAllowed = false,
+			type = "TWOD",
+		},
+		map_normal = {
+			fileName = "models/asset/gare/angers/batiment_normal.tga",
+			redGreen = true,
+			type = "TWOD",
+		},
+		normal_scale = {
+			normalScale = 1,
+		},
+		polygon_offset = {
+			factor = 0,
+			forceDepthWrite = false,
+			units = 0,
+		},
+		two_sided = {
+			flipNormal = true,
+			twoSided = false,
+		},
+	},
+	type = "PHYSICAL_NRML_MAP_CBLEND",
+}
+end

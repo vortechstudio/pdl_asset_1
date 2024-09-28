@@ -1,0 +1,207 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 121.27494812012, 5.2027025222778, 16, },
+		bbMin = { -121.27494812012, -28.261325836182, -5.0537288132091e-08, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 121.27494812012, 16.732013702393, 8, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						children = {
+							{
+								materials = { "station/train/angers/batiment.mtl", },
+								mesh = "station/train/angers/batiment_lod0.msh",
+								name = "batiment",
+								transf = { 1, 2.2326959133222e-32, 5.2939559203394e-23, 0, 0, 1, 0, 0, -5.2939559203394e-23, 1.2325951644078e-32, 1, 0, -6.1250023841858, 8, -0.95874977111816, 1, },
+							},
+							{
+								materials = { "station/train/angers/escalier.mtl", },
+								mesh = "station/train/angers/escalier_lod0.msh",
+								name = "escalier",
+								transf = { 1, 2.2326959133222e-32, 5.2939559203394e-23, 0, 0, 1, 0, 0, -5.2939559203394e-23, 1.2325951644078e-32, 1, 0, 99.712310791016, 8, 13.152244567871, 1, },
+							},
+						},
+						name = "Groupe001",
+						transf = { -1, -1.5099580252809e-07, -9.245826095842e-24, 0, 0, 6.1232342629258e-17, -1, 0, 1.5099580252809e-07, -1, -6.1232342629258e-17, 0, 0, -11.529308319092, 8, 1, },
+					},
+					{
+						children = {
+							{
+								animations = {
+									hours = {
+										params = {
+											id = "station/rail/asset/era_c_big_clock/hours/era_c_hours_big.ani",
+										},
+										type = "FILE_REF",
+									},
+								},
+								materials = { "station/rail/era_c/era_c_trainstation_assets.mtl", },
+								mesh = "station/rail/asset/era_c_big_clock/era_c_hours_big_lod0.msh",
+								name = "era_c_hours_big",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								animations = {
+									minutes = {
+										params = {
+											id = "station/rail/asset/era_c_big_clock/minutes/era_c_minutes_big.ani",
+										},
+										type = "FILE_REF",
+									},
+								},
+								materials = { "station/rail/era_c/era_c_trainstation_assets.mtl", },
+								mesh = "station/rail/asset/era_c_big_clock/era_c_minutes_big_lod0.msh",
+								name = "era_c_minutes_big",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "station/rail/era_c/era_c_trainstation_assets.mtl", },
+								mesh = "station/rail/asset/era_c_big_clock/era_c_trainstation_big_clock_lod0.msh",
+								name = "era_c_trainstation_big_clock",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "era_c_big_clock_grp",
+						transf = { 1.5, 0, 0, 0, -0, 1.5, 0, 0, 0, -0, 1.5, 0, 48.229999542236, -22.120000839233, 10.050000190735, 1, },
+					},
+					{
+						materials = { "asset/gare/enseignes/enseignes_logo/texture_sncf_devanture.mtl", },
+						mesh = "asset/gare/enseignes/enseignes_logo/sncf_logo_3d_devanture_lod0.msh",
+						name = "sncf_logo_3d_devanture",
+						transf = { 0.37999999523163, 0, 1.0991790241276e-31, 0, -1.0991790241276e-31, -1.6610327335798e-08, 0.37999999523163, 0, 4.8046642744952e-39, -0.37999999523163, -1.6610327335798e-08, 0, 9.8299999237061, -21.299999237061, 7.3299999237061, 1, },
+					},
+					{
+						materials = { "asset/gare/enseignes/enseignes_logo/texture_sncf_devanture.mtl", },
+						mesh = "asset/gare/enseignes/enseignes_logo/sncf_logo_3d_devanture_lod0.msh",
+						name = "sncf_logo_3d_devanture",
+						transf = { -8.742278012619e-09, -0.20000000298023, 5.7851531297753e-32, 0, -8.742278012619e-09, 3.8213708773899e-16, 0.20000000298023, 0, -0.20000000298023, 8.742278012619e-09, -8.742278012619e-09, 0, -109.09999847412, -18.219999313354, 11.960000038147, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 17622.7265625,
+		},
+	},
+	metadata = {
+		labelList = {
+			labels = {
+				{
+					alignment = "RIGHT",
+					alpha = 1,
+					alphaMode = "CUTOUT",
+					childId = "",
+					color = { 1, 1, 1, },
+					filter = "NONE",
+					fitting = "CUT",
+					nLines = 1,
+					params = { },
+					renderMode = "EMISSIVE",
+					size = { 30, 2.0999999046326, },
+					transf = { 1, 0, -0, 0, 0, -4.3711388286738e-08, 1, 0, 0, -1, -4.3711388286738e-08, 0, -21.360000610352, -21.299999237061, 7.6100001335144, 1, },
+					type = "STATION_NAME",
+					verticalAlignment = "BOTTOM",
+				},
+				{
+					alignment = "RIGHT",
+					alpha = 1,
+					alphaMode = "CUTOUT",
+					childId = "",
+					color = { 1, 1, 1, },
+					filter = "NONE",
+					fitting = "CUT",
+					nLines = 1,
+					params = { },
+					renderMode = "EMISSIVE",
+					size = { 14.39999961853, 1.2000000476837, },
+					transf = { -4.3711388286738e-08, -1, -0, 0, -4.3711388286738e-08, 1.9106854651647e-15, 1, 0, -1, 4.3711388286738e-08, -4.3711388286738e-08, 0, -109.09999847412, -3.0299999713898, 12, 1, },
+					type = "STATION_NAME",
+					verticalAlignment = "BOTTOM",
+				},
+			},
+		},
+		transportNetworkProvider = {
+			laneLists = {
+				{
+					linkable = false,
+					nodes = {
+						{
+							{ 17.049999237061, -11.199999809265, 0, },
+							{ 0, 20, 0, },
+							30,
+						},
+						{
+							{ 0, -11.10000038147, 0, },
+							{ 0, 20, 0, },
+							30,
+						},
+						{
+							{ 0, -11.10000038147, 0, },
+							{ 0, 20, 0, },
+							30,
+						},
+						{
+							{ 0, 2.7000000476837, 0.94999998807907, },
+							{ 0, 20, 0, },
+							30,
+						},
+						{
+							{ -31.700000762939, -11.10000038147, 0, },
+							{ 19.450000762939, 20, 0, },
+							30,
+						},
+						{
+							{ -0.050000000745058, -11.14999961853, 0, },
+							{ 20, 20, 0, },
+							30,
+						},
+					},
+					speedLimit = 20,
+					transportModes = { "PERSON", },
+				},
+				{
+					linkable = true,
+					nodes = {
+						{
+							{ 16.89999961853, -28.89999961853, 0, },
+							{ 0, 20, 0, },
+							30,
+						},
+						{
+							{ 17.10000038147, -11.14999961853, 0, },
+							{ 0, 20, 0, },
+							30,
+						},
+						{
+							{ -31.700000762939, -28.89999961853, 0, },
+							{ 0, 20, 0, },
+							30,
+						},
+						{
+							{ -31.700000762939, -11.14999961853, 0, },
+							{ 0, 20, 0, },
+							30,
+						},
+					},
+					speedLimit = 20,
+					transportModes = { "PERSON", },
+				},
+			},
+			runways = { },
+			terminals = { },
+		},
+	},
+	version = 1,
+}
+end

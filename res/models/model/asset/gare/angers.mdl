@@ -1,0 +1,131 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 127.39994812012, 17.690752029419, 16, },
+		bbMin = { -115.14994812012, -15.773254394531, -5.0537288132091e-08, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 121.27494812012, 16.732002258301, 8, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/gare/angers/batiment.mtl", },
+						mesh = "asset/gare/angers/batiment_lod0.msh",
+						name = "batiment",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/angers/escalier.mtl", },
+						mesh = "asset/gare/angers/escalier_lod0.msh",
+						name = "escalier",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 105.83731079102, 14.110993385315, 0, 1, },
+					},
+					{
+						children = {
+							{
+								animations = {
+									hours = {
+										params = {
+											id = "station/rail/asset/era_c_big_clock/hours/era_c_hours_big.ani",
+										},
+										type = "FILE_REF",
+									},
+								},
+								materials = { "station/rail/era_c/era_c_trainstation_assets.mtl", },
+								mesh = "station/rail/asset/era_c_big_clock/era_c_hours_big_lod0.msh",
+								name = "era_c_hours_big",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								animations = {
+									minutes = {
+										params = {
+											id = "station/rail/asset/era_c_big_clock/minutes/era_c_minutes_big.ani",
+										},
+										type = "FILE_REF",
+									},
+								},
+								materials = { "station/rail/era_c/era_c_trainstation_assets.mtl", },
+								mesh = "station/rail/asset/era_c_big_clock/era_c_minutes_big_lod0.msh",
+								name = "era_c_minutes_big",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "station/rail/era_c/era_c_trainstation_assets.mtl", },
+								mesh = "station/rail/asset/era_c_big_clock/era_c_trainstation_big_clock_lod0.msh",
+								name = "era_c_trainstation_big_clock",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "era_c_big_clock_grp",
+						transf = { 1.5, 0, 0, 0, -0, 1.5, 0, 0, 0, -0, 1.5, 0, -42.599998474121, 10.739999771118, 10.050000190735, 1, },
+					},
+					{
+						materials = { "asset/gare/enseignes/enseignes_logo/texture_sncf_devanture.mtl", },
+						mesh = "asset/gare/enseignes/enseignes_logo/sncf_logo_3d_devanture_lod0.msh",
+						name = "sncf_logo_3d_devanture",
+						transf = { -0.37999999523163, -3.2917557746259e-07, 1.0991791416771e-31, 0, -1.438872146973e-14, 1.6610327335798e-08, 0.37999999523163, 0, -3.2917557746259e-07, 0.37999999523163, -1.6610327335798e-08, 0, 0.38999998569489, 10.85000038147, 7.6100001335144, 1, },
+					},
+					{
+						materials = { "asset/gare/enseignes/enseignes_logo/texture_sncf_devanture.mtl", },
+						mesh = "asset/gare/enseignes/enseignes_logo/sncf_logo_3d_devanture_lod0.msh",
+						name = "sncf_logo_3d_devanture",
+						transf = { -8.742278012619e-09, 0.20000000298023, 5.7851531297753e-32, 0, 8.742278012619e-09, 3.8213708773899e-16, 0.20000000298023, 0, 0.20000000298023, 8.742278012619e-09, -8.742278012619e-09, 0, 115.54000091553, 7.7399997711182, 11.960000038147, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 17622.7265625,
+		},
+	},
+	metadata = {
+		labelList = {
+			labels = {
+				{
+					alignment = "RIGHT",
+					alpha = 1,
+					alphaMode = "CUTOUT",
+					childId = "",
+					color = { 1, 1, 1, },
+					filter = "NONE",
+					fitting = "CUT",
+					nLines = 1,
+					params = { },
+					renderMode = "EMISSIVE",
+					size = { 30, 2.0999999046326, },
+					transf = { -1, -8.7422776573476e-08, -0, 0, -3.8213709303294e-15, 4.3711388286738e-08, 1, 0, -8.7422776573476e-08, 1, -4.3711388286738e-08, 0, 31.889999389648, 10.85000038147, 7.6100001335144, 1, },
+					type = "NAME",
+					verticalAlignment = "BOTTOM",
+				},
+				{
+					alignment = "RIGHT",
+					alpha = 1,
+					alphaMode = "CUTOUT",
+					childId = "",
+					color = { 1, 1, 1, },
+					filter = "NONE",
+					fitting = "CUT",
+					nLines = 1,
+					params = { },
+					renderMode = "EMISSIVE",
+					size = { 14.39999961853, 1.2000000476837, },
+					transf = { -4.3711388286738e-08, 1, -0, 0, 4.3711388286738e-08, 1.9106854651647e-15, 1, 0, 1, 4.3711388286738e-08, -4.3711388286738e-08, 0, 115.54000091553, -7.3499999046326, 12, 1, },
+					type = "NAME",
+					verticalAlignment = "BOTTOM",
+				},
+			},
+		},
+	},
+	version = 1,
+}
+end
