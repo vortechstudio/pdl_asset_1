@@ -8,6 +8,7 @@ local variant_06 = "asset/gare/ancenis.mdl"
 local variant_07 = "asset/gare/brest.mdl"
 local variant_08 = "asset/gare/lannion.mdl"
 local variant_09 = "asset/gare/landerneau.mdl"
+local variant_10 = "asset/gare/chantenay.mdl"
 
 function data()
     return {
@@ -37,6 +38,7 @@ function data()
                             _("Brest"),
                             _("Lannion"),
                             _("Landerneau"),
+                            _("Chantenay"),
                         },
             },
             {
@@ -66,6 +68,7 @@ function data()
             if ( params.variant_gare == 7 ) then result.models[#result.models+1] = { id = variant_07, transf = { 1, 0, grad, 0, 0, 1, 0, 0, grad, 0, 1, 0, spacingm, shiftm, height+offsetz, 1 } } end
             if ( params.variant_gare == 8 ) then result.models[#result.models+1] = { id = variant_08, transf = { 1, 0, grad, 0, 0, 1, 0, 0, grad, 0, 1, 0, spacingm, shiftm, height+offsetz, 1 } } end
             if ( params.variant_gare == 9 ) then result.models[#result.models+1] = { id = variant_09, transf = { 1, 0, grad, 0, 0, 1, 0, 0, grad, 0, 1, 0, spacingm, shiftm, height+offsetz, 1 } } end
+            if ( params.variant_gare == 10 ) then result.models[#result.models+1] = { id = variant_10, transf = { 1, 0, grad, 0, 0, 1, 0, 0, grad, 0, 1, 0, spacingm, shiftm, height+offsetz, 1 } } end
 
             result.groundFaces = {
                 {  

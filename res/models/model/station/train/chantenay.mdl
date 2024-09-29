@@ -1,0 +1,238 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 22.410499572754, 10.841551780701, 14.14207649231, },
+		bbMin = { -22.982490539551, -8.9888114929199, -3.4358022276137e-06, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 22.696495056152, 9.9151821136475, 7.0710401535034, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						children = {
+							{
+								materials = { "asset/gare/chantenay/panneau.mtl", },
+								mesh = "asset/gare/chantenay/sol_lod0.msh",
+								name = "sol",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.01118278503418, 7.071035861969, 4.1559820175171, 1, },
+							},
+							{
+								materials = { "asset/gare/chantenay/panneau.mtl", },
+								mesh = "asset/gare/chantenay/panneau_sortie_lod0.msh",
+								name = "panneau_sortie",
+								transf = { -1.6292068494295e-07, 3.155443620884e-30, -1, 0, 1, -1.6292068494295e-07, -1.6292068494295e-07, 0, -1.6292068494295e-07, -1, 2.6543149595588e-14, 0, 22.3212890625, 3.20942902565, 8.6712875366211, 1, },
+							},
+							{
+								materials = { "asset/gare/chantenay/panneau.mtl", },
+								mesh = "asset/gare/chantenay/panneau_info_lod0.msh",
+								name = "panneau_info",
+								transf = { 0.91472500562668, 0, 0, 0, 0, 0.78492599725723, 0, 0, 0, 0, 1, 0, 3.7514343261719, 5.3885860443115, -1.0545415878296, 1, },
+							},
+							{
+								materials = { "asset/gare/chantenay/panneau.mtl", },
+								mesh = "asset/gare/chantenay/panneau_gare_lod0.msh",
+								name = "panneau_gare",
+								transf = { 1, 0, 0, 0, 0, -1.6292068494295e-07, 1, 0, 0, -1, -1.6292068494295e-07, 0, 8.4654207229614, 2.8314933776855, -1.0049753189087, 1, },
+							},
+							{
+								materials = { "asset/gare/chantenay/panneau.mtl", },
+								mesh = "asset/gare/chantenay/panneau_gare_lod0.msh",
+								name = "panneau_gare",
+								transf = { -1.6292068494295e-07, 3.155443620884e-30, -1, 0, 1, -1.6292068494295e-07, -1.6292068494295e-07, 0, -1.6292068494295e-07, -1, 2.6543149595588e-14, 0, 4.2509527206421, 3.20942902565, 8.6450080871582, 1, },
+							},
+							{
+								materials = { "asset/gare/chantenay/batiment_b.mtl", },
+								mesh = "asset/gare/chantenay/batiment_b_lod0.msh",
+								name = "batiment_b",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -15.978401184082, 6.5210356712341, -0.30216884613037, 1, },
+							},
+							{
+								materials = { "asset/gare/chantenay/batiment_a.mtl", },
+								mesh = "asset/gare/chantenay/batiment_a_lod0.msh",
+								name = "batiment_a",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.4964952468872, 6.521035194397, 3.5002660751343, 1, },
+							},
+						},
+						name = "chantenay_lod0",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.28599548339844, 0.37570381164551, 7.071035861969, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, -8.3900003433228, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 1916.1978759766,
+		},
+		{
+			node = {
+				children = {
+					{
+						children = {
+							{
+								materials = { "asset/gare/chantenay/panneau.mtl", },
+								mesh = "asset/gare/chantenay/sol001_lod1.msh",
+								name = "sol001",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.01118278503418, 7.0710363388062, 4.1559820175171, 1, },
+							},
+							{
+								materials = { "asset/gare/chantenay/panneau.mtl", },
+								mesh = "asset/gare/chantenay/panneau_sortie001_lod1.msh",
+								name = "panneau_sortie001",
+								transf = { -1.6292068494295e-07, 3.155443620884e-30, -1, 0, 1, -1.6292068494295e-07, -1.6292068494295e-07, 0, -1.6292068494295e-07, -1, 2.6543149595588e-14, 0, 22.3212890625, 3.2094295024872, 8.6712875366211, 1, },
+							},
+							{
+								materials = { "asset/gare/chantenay/panneau.mtl", },
+								mesh = "asset/gare/chantenay/panneau_info001_lod1.msh",
+								name = "panneau_info001",
+								transf = { 0.91472500562668, 0, 0, 0, 0, 0.78492599725723, 0, 0, 0, 0, 1, 0, 3.7514343261719, 5.3885869979858, -1.0545415878296, 1, },
+							},
+							{
+								materials = { "asset/gare/chantenay/panneau.mtl", },
+								mesh = "asset/gare/chantenay/panneau_gare001_lod1.msh",
+								name = "panneau_gare001",
+								transf = { 1, 0, 0, 0, 0, -1.6292068494295e-07, 1, 0, 0, -1, -1.6292068494295e-07, 0, 8.4654207229614, 2.8314943313599, -1.0049753189087, 1, },
+							},
+							{
+								materials = { "asset/gare/chantenay/panneau.mtl", },
+								mesh = "asset/gare/chantenay/panneau_gare002_lod1.msh",
+								name = "panneau_gare002",
+								transf = { -1.6292068494295e-07, 3.155443620884e-30, -1, 0, 1, -1.6292068494295e-07, -1.6292068494295e-07, 0, -1.6292068494295e-07, -1, 2.6543149595588e-14, 0, 4.2509527206421, 3.2094295024872, 8.6450080871582, 1, },
+							},
+							{
+								materials = { "asset/gare/chantenay/batiment_b.mtl", },
+								mesh = "asset/gare/chantenay/batiment_b001_lod1.msh",
+								name = "batiment_b001",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -15.978401184082, 6.5210361480713, -0.30216884613037, 1, },
+							},
+							{
+								materials = { "asset/gare/chantenay/batiment_a.mtl", },
+								mesh = "asset/gare/chantenay/batiment_a001_lod1.msh",
+								name = "batiment_a001",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.4964952468872, 6.5210361480713, 3.5002660751343, 1, },
+							},
+						},
+						name = "chantenay_lod1",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -0.28599548339844, 0.37570381164551, 7.0710363388062, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 1916.1978759766,
+			visibleTo = 5748.59375,
+		},
+	},
+	metadata = {
+		labelList = {
+			labels = {
+				{
+					alignment = "LEFT",
+					alpha = 1,
+					alphaMode = "CUTOUT",
+					childId = "",
+					color = { 1, 1, 1, },
+					filter = "NONE",
+					fitting = "SCALE",
+					nLines = 1,
+					params = { },
+					renderMode = "EMISSIVE",
+					size = { 2.7999999523163, 0.44999998807907, },
+					transf = { 1, 0, 0, 0, 0, -4.3711388286738e-08, 1, 0, 0, -1, -4.3711388286738e-08, 0, 6.4299998283386, -0.62999999523163, 3.960000038147, 1, },
+					type = "NAME",
+					verticalAlignment = "BOTTOM",
+				},
+			},
+		},
+		transportNetworkProvider = {
+			laneLists = {
+				{
+					linkable = true,
+					nodes = {
+						{
+							{ 5, -16.85000038147, 0.55000001192093, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+						{
+							{ 5, -8.0500001907349, 0.55000001192093, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+						{
+							{ 7.6999998092651, -16.85000038147, 0.55000001192093, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+						{
+							{ 7.6999998092651, -8.0500001907349, 0.55000001192093, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+						{
+							{ 7.6999998092651, -8.0500001907349, 0.55000001192093, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+						{
+							{ 7.6999998092651, 1, 0.55000001192093, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+						{
+							{ 5, -8.0500001907349, 0.55000001192093, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+						{
+							{ 7.6500000953674, -8.0500001907349, 0.55000001192093, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+					},
+					speedLimit = 20,
+					transportModes = { "PERSON", },
+				},
+				{
+					linkable = true,
+					nodes = {
+						{
+							{ -9.25, 1, 0.55000001192093, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+						{
+							{ 7.6999998092651, 1, 0.55000001192093, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+						{
+							{ 18.950000762939, 1, 0.55000001192093, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+						{
+							{ 7.6999998092651, 1, 0.55000001192093, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+					},
+					speedLimit = 20,
+					transportModes = { "PERSON", },
+				},
+			},
+			runways = { },
+			terminals = { },
+		},
+	},
+	version = 1,
+}
+end
