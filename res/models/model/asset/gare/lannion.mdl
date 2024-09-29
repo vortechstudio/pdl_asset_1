@@ -1,0 +1,54 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 15, 22.5, 11.223578453064, },
+		bbMin = { -15, -22.5, -1.4980674468325e-15, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 15, 22.5, 5.611789226532, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/gare/lannion/sol.mtl", },
+						mesh = "asset/gare/lannion/sol_lod0.msh",
+						name = "sol",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/lannion/batiment_a.mtl", },
+						mesh = "asset/gare/lannion/batiment_a_lod0.msh",
+						name = "batiment_a",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 10.972011566162, 8.8471250534058, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/lannion/batiment_b.mtl", },
+						mesh = "asset/gare/lannion/batiment_b_lod0.msh",
+						name = "batiment_b",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -9.9920215606689, 1.7422357797623, 0.0029704303015023, 1, },
+					},
+					{
+						materials = { "asset/gare/lannion/batiment_c.mtl", },
+						mesh = "asset/gare/lannion/batiment_c_lod0.msh",
+						name = "batiment_c",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 0.96237254142761, 5.0331339836121, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 7561.7788085938,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end
