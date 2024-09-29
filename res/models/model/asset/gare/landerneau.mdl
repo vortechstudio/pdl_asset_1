@@ -1,0 +1,110 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 28.185279846191, 5.9999961853027, 9.6140003204346, },
+		bbMin = { -27.47331237793, -6.0000047683716, -3.1907675536532e-16, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 27.829296112061, 6.0000004768372, 4.8070001602173, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/gare/landerneau/batiment_b_c.mtl", },
+						mesh = "asset/gare/landerneau/batiment_c_lod0.msh",
+						name = "batiment_c",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -23.97331237793, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/landerneau/batiment_b_c.mtl", },
+						mesh = "asset/gare/landerneau/batiment_b_lod0.msh",
+						name = "batiment_b",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 13.185279846191, 0.072416067123413, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/landerneau/armature.mtl", },
+						mesh = "asset/gare/landerneau/armature_lod0.msh",
+						name = "armature",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -20.172077178955, -4.7212858200073, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/landerneau/batiment_a.mtl", },
+						mesh = "asset/gare/landerneau/batiment_a_lod0.msh",
+						name = "batiment_a",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -11.041108131409, 0.058647394180298, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 1602.3911132813,
+		},
+		{
+			node = {
+				children = {
+					{
+						children = {
+							{
+								materials = { "asset/gare/landerneau/batiment_b_c.mtl", },
+								mesh = "asset/gare/landerneau/batiment_c001_lod1.msh",
+								name = "batiment_c001",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -24.329296112061, 4.8070001602173, 4.2915344238281e-06, 1, },
+							},
+							{
+								materials = { "asset/gare/landerneau/batiment_b_c.mtl", },
+								mesh = "asset/gare/landerneau/batiment_b001_lod1.msh",
+								name = "batiment_b001",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.829296112061, 4.8070001602173, 0.072420358657837, 1, },
+							},
+							{
+								materials = { "asset/gare/landerneau/batiment_a.mtl", },
+								mesh = "asset/gare/landerneau/batiment_a001_lod1.msh",
+								name = "batiment_a001",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.39709186554, 4.8070001602173, 0.058651685714722, 1, },
+							},
+						},
+						name = "landerneau_lod1",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 0.35598373413086, -4.2915344238281e-06, 4.8070001602173, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 1602.3911132813,
+			visibleTo = 4807.1733398438,
+		},
+	},
+	metadata = {
+		labelList = {
+			labels = {
+				{
+					alignment = "LEFT",
+					alpha = 1,
+					alphaMode = "CUTOUT",
+					childId = "",
+					color = { 0, 0.007328465115279, 0.30588233470917, },
+					filter = "NONE",
+					fitting = "SCALE",
+					nLines = 1,
+					params = { },
+					renderMode = "STD",
+					size = { 3.25, 0.27000001072884, },
+					transf = { 1, 0, 0, 0, 0, -4.3711388286738e-08, 1, 0, 0, -1, -4.3711388286738e-08, 0, -13.609999656677, -5.4899997711182, 2.210000038147, 1, },
+					type = "NAME",
+					verticalAlignment = "BOTTOM",
+				},
+			},
+		},
+	},
+	version = 1,
+}
+end
