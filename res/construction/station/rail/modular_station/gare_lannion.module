@@ -11,7 +11,7 @@ function data()
             categories = { "passenger buildings", "PDL", },
         },
         description = {
-            name = _("Gare de Lannion'"),
+            name = _("Gare de Lannion"),
             --description = _("Gare de Nantes Nord"),
             icon = "ui/models_small/construction/station/rail/modular_station/lannion.tga"
         }, 

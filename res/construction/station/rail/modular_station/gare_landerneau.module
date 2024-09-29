@@ -11,7 +11,7 @@ function data()
             categories = { "passenger buildings", "PDL", },
         },
         description = {
-            name = _("Gare de Landerneau'"),
+            name = _("Gare de Landerneau"),
             --description = _("Gare de Nantes Nord"),
             icon = "ui/models_small/construction/station/rail/modular_station/landerneau.tga"
         }, 
