@@ -1,0 +1,509 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 30.14999961853, 7.5342464447021, 12.454714775085, },
+		bbMin = { -30.14999961853, -7.5342473983765, -4.22503210464e-16, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 30.14999961853, 7.5342469215393, 6.2273573875427, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						children = {
+							{
+								materials = { "asset/gare/cholet/verre.mtl", },
+								mesh = "asset/gare/cholet/verre_lod0.msh",
+								name = "verre",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.14999961853027, 6.2273573875427, 2.0342469215393, 1, },
+							},
+							{
+								materials = { "asset/gare/cholet/poteau.mtl", },
+								mesh = "asset/gare/cholet/poteau_lod0.msh",
+								name = "poteau",
+								transf = { 7.5497901264043e-08, 1, 0, 0, -1, 7.5497901264043e-08, 0, 0, 0, 0, 1, 0, -13.552696228027, 2.9376888275146, -4.8118677139282, 1, },
+							},
+							{
+								materials = { "asset/gare/cholet/batiment.mtl", },
+								mesh = "asset/gare/cholet/porte_g_lod0.msh",
+								name = "porte_g",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.14999961853027, 6.2273573875427, 2.0342469215393, 1, },
+							},
+							{
+								materials = { "asset/gare/cholet/batiment.mtl", },
+								mesh = "asset/gare/cholet/porte_d_lod0.msh",
+								name = "porte_d",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.14999961853027, 6.2273573875427, 2.0342469215393, 1, },
+							},
+							{
+								materials = { "asset/gare/cholet/batiment.mtl", },
+								mesh = "asset/gare/cholet/chinmey003_lod0.msh",
+								name = "chinmey003",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 19.705770492554, -0.26628303527832, 2.0551054477692, 1, },
+							},
+							{
+								materials = { "asset/gare/cholet/batiment.mtl", },
+								mesh = "asset/gare/cholet/chinmey002_lod0.msh",
+								name = "chinmey002",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0.33964800834656, 0, 0.69274652004242, -2.7932381629944, -0.46839237213135, 1, },
+							},
+							{
+								materials = { "asset/gare/cholet/batiment.mtl", },
+								mesh = "asset/gare/cholet/chinmey001_lod0.msh",
+								name = "chinmey001",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.3164720535278, -3.9499306678772, 2.0528740882874, 1, },
+							},
+							{
+								materials = { "asset/gare/cholet/batiment.mtl", },
+								mesh = "asset/gare/cholet/chinmey_lod0.msh",
+								name = "chinmey",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.1878538131714, -3.9499306678772, 2.0171797275543, 1, },
+							},
+							{
+								materials = { "asset/gare/cholet/batiment.mtl", },
+								mesh = "asset/gare/cholet/batiment_lod0.msh",
+								name = "batiment",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.14999961853027, 6.2273573875427, 2.0342469215393, 1, },
+							},
+							{
+								materials = { "asset/gare/cholet/batiment.mtl", },
+								mesh = "asset/gare/cholet/armature_lod0.msh",
+								name = "armature",
+								transf = { -1.6292068494295e-07, 3.155443620884e-30, -1, 0, 1, -1.6292068494295e-07, -1.6292068494295e-07, 0, -1.6292068494295e-07, -1, 2.6543149595588e-14, 0, -12.35587310791, -17.947561264038, -3.2402737140656, 1, },
+							},
+							{
+								materials = { "asset/gare/enseignes/enseignes_logo/texture_sncf_devanture.mtl", },
+								mesh = "asset/gare/enseignes/enseignes_logo/sncf_logo_3d_devanture_lod0.msh",
+								name = "sncf_logo_3d_devanture",
+								transf = { 0.15000000596046, 1.311341613075e-08, 1.311341613075e-08, 0, 1.3113407248966e-08, -0.15000000596046, 9.4174943399139e-08, 0, 1.3113424124356e-08, -9.4174943399139e-08, -0.15000000596046, 0, 2.3299999237061, 1.539999961853, -7.2199997901917, 1, },
+							},
+							{
+								children = {
+									{
+										animations = {
+											minutes = {
+												params = {
+													id = "station/rail/asset/era_a_big_clock/minutes/era_a_big_clock_minutes.ani",
+												},
+												type = "FILE_REF",
+											},
+										},
+										materials = { "station/rail/era_a/era_a_trainstation_assets.mtl", },
+										mesh = "station/rail/asset/era_a_big_clock/era_a_big_clock_minutes_lod0.msh",
+										name = "era_a_big_clock_minutes",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+									},
+									{
+										animations = {
+											hours = {
+												params = {
+													id = "station/rail/asset/era_a_big_clock/hours/era_a_big_clock_hours.ani",
+												},
+												type = "FILE_REF",
+											},
+										},
+										materials = { "station/rail/era_a/era_a_trainstation_assets.mtl", },
+										mesh = "station/rail/asset/era_a_big_clock/era_a_big_clock_hours_lod0.msh",
+										name = "era_a_big_clock_hours",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+									},
+									{
+										materials = { "station/rail/era_a/era_a_trainstation_assets.mtl", },
+										mesh = "station/rail/asset/era_a_big_clock/era_a_big_clock_backplate_lod0.msh",
+										name = "era_a_big_clock_backplate",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+									},
+								},
+								name = "era_a_big_clock_grp",
+								transf = { 0.62999999523163, 0, 0, 0, 0, -2.7538174407482e-08, 0.62999999523163, 0, 0, -0.62999999523163, -2.7538174407482e-08, 0, -0.70999997854233, -2.460000038147, -3.0099999904633, 1, },
+							},
+						},
+						name = "batiment_lod0",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 0, -4.7683715820313e-07, 6.2273573875427, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, -7.0900001525879, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 620.04998779297,
+		},
+		{
+			node = {
+				children = {
+					{
+						children = {
+							{
+								materials = { "asset/gare/cholet/batiment.mtl", },
+								mesh = "asset/gare/cholet/batiment002_lod1.msh",
+								name = "batiment002",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.14999961853027, 5.4972128868103, 2.0342469215393, 1, },
+							},
+							{
+								materials = { "asset/gare/cholet/verre.mtl", },
+								mesh = "asset/gare/cholet/verre002_lod1.msh",
+								name = "verre002",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.14999961853027, 5.4972128868103, 2.0342469215393, 1, },
+							},
+							{
+								materials = { "asset/gare/cholet/batiment.mtl", },
+								mesh = "asset/gare/cholet/porte_g001_lod1.msh",
+								name = "porte_g001",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.14999961853027, 5.4972128868103, 2.0342469215393, 1, },
+							},
+							{
+								materials = { "asset/gare/cholet/batiment.mtl", },
+								mesh = "asset/gare/cholet/porte_d001_lod1.msh",
+								name = "porte_d001",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.14999961853027, 5.4972128868103, 2.0342469215393, 1, },
+							},
+							{
+								materials = { "asset/gare/cholet/batiment.mtl", },
+								mesh = "asset/gare/cholet/armature001_lod1.msh",
+								name = "armature001",
+								transf = { -1.6292068494295e-07, 3.155443620884e-30, -1, 0, 1, -1.6292068494295e-07, -1.6292068494295e-07, 0, -1.6292068494295e-07, -1, 2.6543149595588e-14, 0, -12.35587310791, -18.677705764771, -3.2402737140656, 1, },
+							},
+							{
+								materials = { "asset/gare/enseignes/enseignes_logo/texture_sncf_devanture.mtl", },
+								mesh = "asset/gare/enseignes/enseignes_logo/sncf_logo_3d_devanture_lod0.msh",
+								name = "sncf_logo_3d_devanture",
+								transf = { 0.15000000596046, 1.311341613075e-08, 1.311341613075e-08, 0, 1.3113407248966e-08, -0.15000000596046, 9.4174943399139e-08, 0, 1.3113424124356e-08, -9.4174943399139e-08, -0.15000000596046, 0, 2.3299999237061, 1.539999961853, -7.2199997901917, 1, },
+							},
+							{
+								children = {
+									{
+										animations = {
+											minutes = {
+												params = {
+													id = "station/rail/asset/era_a_big_clock/minutes/era_a_big_clock_minutes.ani",
+												},
+												type = "FILE_REF",
+											},
+										},
+										materials = { "station/rail/era_a/era_a_trainstation_assets.mtl", },
+										mesh = "station/rail/asset/era_a_big_clock/era_a_big_clock_minutes_lod0.msh",
+										name = "era_a_big_clock_minutes",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+									},
+									{
+										animations = {
+											hours = {
+												params = {
+													id = "station/rail/asset/era_a_big_clock/hours/era_a_big_clock_hours.ani",
+												},
+												type = "FILE_REF",
+											},
+										},
+										materials = { "station/rail/era_a/era_a_trainstation_assets.mtl", },
+										mesh = "station/rail/asset/era_a_big_clock/era_a_big_clock_hours_lod0.msh",
+										name = "era_a_big_clock_hours",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+									},
+									{
+										materials = { "station/rail/era_a/era_a_trainstation_assets.mtl", },
+										mesh = "station/rail/asset/era_a_big_clock/era_a_big_clock_backplate_lod0.msh",
+										name = "era_a_big_clock_backplate",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+									},
+								},
+								name = "era_a_big_clock_grp",
+								transf = { 0.62999999523163, 0, 0, 0, 0, -2.7538174407482e-08, 0.62999999523163, 0, 0, -0.62999999523163, -2.7538174407482e-08, 0, -0.70999997854233, -2.460000038147, -3.0099999904633, 1, },
+							},
+						},
+						name = "batiment_lod1",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 0, -4.7683715820313e-07, 5.4972128868103, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, -7.0900001525879, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 620.04998779297,
+			visibleTo = 1860.1500244141,
+		},
+		{
+			node = {
+				children = {
+					{
+						children = {
+							{
+								materials = { "asset/gare/cholet/batiment.mtl", },
+								mesh = "asset/gare/cholet/batiment001_lod2.msh",
+								name = "batiment001",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.14999961853027, 5.4972128868103, 0.80000019073486, 1, },
+							},
+							{
+								materials = { "asset/gare/cholet/verre.mtl", },
+								mesh = "asset/gare/cholet/verre001_lod2.msh",
+								name = "verre001",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.14999961853027, 5.4972128868103, 0.80000019073486, 1, },
+							},
+							{
+								materials = { "asset/gare/enseignes/enseignes_logo/texture_sncf_devanture.mtl", },
+								mesh = "asset/gare/enseignes/enseignes_logo/sncf_logo_3d_devanture_lod0.msh",
+								name = "sncf_logo_3d_devanture",
+								transf = { 0.15000000596046, 1.311341613075e-08, 1.311341613075e-08, 0, 1.3113407248966e-08, -0.15000000596046, 9.4174943399139e-08, 0, 1.3113424124356e-08, -9.4174943399139e-08, -0.15000000596046, 0, 2.3299999237061, 1.539999961853, -7.2199997901917, 1, },
+							},
+							{
+								children = {
+									{
+										animations = {
+											minutes = {
+												params = {
+													id = "station/rail/asset/era_a_big_clock/minutes/era_a_big_clock_minutes.ani",
+												},
+												type = "FILE_REF",
+											},
+										},
+										materials = { "station/rail/era_a/era_a_trainstation_assets.mtl", },
+										mesh = "station/rail/asset/era_a_big_clock/era_a_big_clock_minutes_lod0.msh",
+										name = "era_a_big_clock_minutes",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+									},
+									{
+										animations = {
+											hours = {
+												params = {
+													id = "station/rail/asset/era_a_big_clock/hours/era_a_big_clock_hours.ani",
+												},
+												type = "FILE_REF",
+											},
+										},
+										materials = { "station/rail/era_a/era_a_trainstation_assets.mtl", },
+										mesh = "station/rail/asset/era_a_big_clock/era_a_big_clock_hours_lod0.msh",
+										name = "era_a_big_clock_hours",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+									},
+									{
+										materials = { "station/rail/era_a/era_a_trainstation_assets.mtl", },
+										mesh = "station/rail/asset/era_a_big_clock/era_a_big_clock_backplate_lod0.msh",
+										name = "era_a_big_clock_backplate",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+									},
+								},
+								name = "era_a_big_clock_grp",
+								transf = { 0.62999999523163, 0, 0, 0, 0, -2.7538174407482e-08, 0.62999999523163, 0, 0, -0.62999999523163, -2.7538174407482e-08, 0, -0.70999997854233, -2.460000038147, -3.0099999904633, 1, },
+							},
+						},
+						name = "batiment_lod2",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 0, 1.2342462539673, 5.4972128868103, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, -7.0900001525879, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 1860.1500244141,
+			visibleTo = 5580.4501953125,
+		},
+	},
+	metadata = {
+		labelList = {
+			labels = {
+				{
+					alignment = "LEFT",
+					alpha = 1,
+					alphaMode = "CUTOUT",
+					childId = "",
+					color = { 1, 1, 1, },
+					filter = "NONE",
+					fitting = "CUT",
+					nLines = 1,
+					params = { },
+					renderMode = "EMISSIVE",
+					size = { 7.5999999046326, 0.85000002384186, },
+					transf = { 1, 0, 0, 0, 0, -4.3711388286738e-08, 1, 0, 0, -1, -4.3711388286738e-08, 0, -5.8200001716614, -7.25, 4.710000038147, 1, },
+					type = "STATION_NAME",
+					verticalAlignment = "BOTTOM",
+				},
+				{
+					alignment = "LEFT",
+					alpha = 1,
+					alphaMode = "CUTOUT",
+					childId = "",
+					color = { 1, 1, 1, },
+					filter = "NONE",
+					fitting = "CUT",
+					nLines = 1,
+					params = { },
+					renderMode = "EMISSIVE",
+					size = { 7.5999999046326, 0.85000002384186, },
+					transf = { 1, 0, 0, 0, 0, -4.3711388286738e-08, 1, 0, 0, -1, -4.3711388286738e-08, 0, -5.8200001716614, -7.2699999809265, 4.710000038147, 1, },
+					type = "STATION_NAME",
+					verticalAlignment = "BOTTOM",
+				},
+				{
+					alignment = "LEFT",
+					alpha = 1,
+					alphaMode = "CUTOUT",
+					childId = "",
+					color = { 1, 1, 1, },
+					filter = "NONE",
+					fitting = "CUT",
+					nLines = 1,
+					params = { },
+					renderMode = "EMISSIVE",
+					size = { 7.5999999046326, 0.85000002384186, },
+					transf = { 1, 0, 0, 0, 0, -4.3711388286738e-08, 1, 0, 0, -1, -4.3711388286738e-08, 0, -5.8200001716614, -7.289999961853, 4.710000038147, 1, },
+					type = "STATION_NAME",
+					verticalAlignment = "BOTTOM",
+				},
+				{
+					alignment = "LEFT",
+					alpha = 1,
+					alphaMode = "CUTOUT",
+					childId = "",
+					color = { 1, 1, 1, },
+					filter = "NONE",
+					fitting = "CUT",
+					nLines = 1,
+					params = { },
+					renderMode = "EMISSIVE",
+					size = { 7.5999999046326, 0.85000002384186, },
+					transf = { 1, 0, 0, 0, 0, -4.3711388286738e-08, 1, 0, 0, -1, -4.3711388286738e-08, 0, -5.8200001716614, -7.3099999427795, 4.710000038147, 1, },
+					type = "STATION_NAME",
+					verticalAlignment = "BOTTOM",
+				},
+				{
+					alignment = "LEFT",
+					alpha = 1,
+					alphaMode = "CUTOUT",
+					childId = "",
+					color = { 1, 1, 1, },
+					filter = "NONE",
+					fitting = "CUT",
+					nLines = 1,
+					params = { },
+					renderMode = "EMISSIVE",
+					size = { 7.5999999046326, 0.85000002384186, },
+					transf = { 1, 0, 0, 0, 0, -4.3711388286738e-08, 1, 0, 0, -1, -4.3711388286738e-08, 0, -5.8200001716614, -7.3299999237061, 4.710000038147, 1, },
+					type = "STATION_NAME",
+					verticalAlignment = "BOTTOM",
+				},
+			},
+		},
+		transportNetworkProvider = {
+			laneLists = {
+				{
+					linkable = false,
+					nodes = {
+						{
+							{ -12.89999961853, -13.5, 0, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+						{
+							{ 0, -13.5, 0, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+						{
+							{ 9.1499996185303, -13.5, 0, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+						{
+							{ 0, -13.5, 0, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+					},
+					speedLimit = 20,
+					transportModes = { "PERSON", },
+				},
+				{
+					linkable = true,
+					nodes = {
+						{
+							{ 0.44999998807907, -16.799999237061, 0, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+						{
+							{ 0, -13.5, 0, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+						{
+							{ 0, -13.5, 0, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+						{
+							{ -1.1499999761581, -5.0500001907349, 0, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+					},
+					speedLimit = 20,
+					transportModes = { "PERSON", },
+				},
+				{
+					linkable = false,
+					nodes = {
+						{
+							{ -1.1499999761581, -5.0500001907349, 0, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+						{
+							{ 2.7000000476837, -5.4000000953674, 0, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+						{
+							{ -6.5999999046326, -5.1500000953674, 0, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+						{
+							{ -1.1499999761581, -5.0500001907349, 0, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+					},
+					speedLimit = 20,
+					transportModes = { "PERSON", },
+				},
+				{
+					linkable = true,
+					nodes = {
+						{
+							{ 2.75, -5.4000000953674, 0, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+						{
+							{ 3, 0.80000001192093, 0.55000001192093, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+						{
+							{ -6.5, -5.1500000953674, 0, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+						{
+							{ -5, 0.80000001192093, 0.55000001192093, },
+							{ 0, 1, 0, },
+							0.40000000596046,
+						},
+					},
+					speedLimit = 20,
+					transportModes = { "PERSON", },
+				},
+			},
+			runways = { },
+			terminals = { },
+		},
+	},
+	version = 1,
+}
+end
