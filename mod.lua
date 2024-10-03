@@ -12,6 +12,10 @@ return {
 		    {
 		        name = "Syltheron",
 				role = 'CREATOR',
+			},
+			{
+				name = "NTH-Z6K4",
+				role = '3D, Texture',
 			}
 		},
 		requiredMods = {

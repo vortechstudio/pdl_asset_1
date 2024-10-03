@@ -1,0 +1,255 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 57.129737854004, 6, 9.464542388916, },
+		bbMin = { -57.129737854004, -5.3100070953369, -2.7757883071899, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 57.129737854004, 5.6550035476685, 6.120165348053, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/gare/saumur/vitre.mtl", },
+						mesh = "asset/gare/saumur/vitre_lod0.msh",
+						name = "vitre",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 0.4210547208786, -0.46021819114685, 2.3841857910156e-07, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/panneau.mtl", },
+						mesh = "asset/gare/saumur/panneau_lod0.msh",
+						name = "panneau",
+						transf = { 1, 0, 0, 0, 0, 1, 1.6292068494295e-07, 0, 0, -1.6292068494295e-07, 1, 0, 27.737062454224, -4.5348649024963, 4.7375416755676, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/subway.mtl", },
+						mesh = "asset/gare/saumur/subway_lod0.msh",
+						name = "subway",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 52.983627319336, 0.4998260140419, -2.2162051200867, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/subway.mtl", },
+						mesh = "asset/gare/saumur/fence_subway_lod0.msh",
+						name = "fence_subway",
+						transf = { -4.3711388286738e-08, 1, 6.1232342629258e-17, 0, -3.6734198463196e-40, 6.1232342629258e-17, -1, 0, -1.3929480314255, -6.0887693109635e-08, -3.7282958720243e-24, 0, 52.15372467041, -50.816745758057, -0.89531600475311, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/batiment_c.mtl", },
+						mesh = "asset/gare/saumur/batiment_c_lod0.msh",
+						name = "batiment_c",
+						transf = { 0.74436002969742, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 52.878124237061, 5.9604644775391e-06, 2.3841857910156e-07, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/batiment_b.mtl", },
+						mesh = "asset/gare/saumur/batiment_b_lod0.msh",
+						name = "batiment_b",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 0.4210547208786, -0.46021819114685, 2.3841857910156e-07, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/batiment_a.mtl", },
+						mesh = "asset/gare/saumur/batiment_a_lod0.msh",
+						name = "batiment_a",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -27.643733978271, 1.6525682210922, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/autre.mtl", },
+						mesh = "asset/gare/saumur/porte_fen_bat_a_lod0.msh",
+						name = "porte_fen_bat_a",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -15.083132743835, 4.3596487045288, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/autre.mtl", },
+						mesh = "asset/gare/saumur/porte_lod0.msh",
+						name = "porte",
+						transf = { -1, -1.5099580252809e-07, -9.245826095842e-24, 0, 0, 6.1232342629258e-17, -1, 0, 1.5099580252809e-07, -1, -6.1232342629258e-17, 0, 27.718326568604, 4.4736733436584, 2.7757883071899, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/autre.mtl", },
+						mesh = "asset/gare/saumur/porte_lod0.msh",
+						name = "porte",
+						transf = { -1, -1.5099580252809e-07, -9.245826095842e-24, 0, 0, 6.1232342629258e-17, -1, 0, 1.5099580252809e-07, -1, -6.1232342629258e-17, 0, 21.273723602295, 4.4626526832581, 2.7757883071899, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/autre.mtl", },
+						mesh = "asset/gare/saumur/porte_lod0.msh",
+						name = "porte",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 21.2717628479, -4.4921016693115, 2.7757883071899, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/autre.mtl", },
+						mesh = "asset/gare/saumur/porte_lod0.msh",
+						name = "porte",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 27.747875213623, -4.4921016693115, 2.7757883071899, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/autre.mtl", },
+						mesh = "asset/gare/saumur/porte_lod0.msh",
+						name = "porte",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 14.803577423096, -4.4924392700195, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/autre.mtl", },
+						mesh = "asset/gare/saumur/porte_lod0.msh",
+						name = "porte",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 0.74819564819336, -4.4924392700195, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/autre.mtl", },
+						mesh = "asset/gare/saumur/porte_lod0.msh",
+						name = "porte",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 7.8603706359863, -4.4924392700195, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/autre.mtl", },
+						mesh = "asset/gare/saumur/porte_lod0.msh",
+						name = "porte",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -7.5136165618896, -4.4924392700195, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/autre.mtl", },
+						mesh = "asset/gare/saumur/porte_lod0.msh",
+						name = "porte",
+						transf = { -1, -1.5099580252809e-07, -9.245826095842e-24, 0, 0, 6.1232342629258e-17, -1, 0, 1.5099580252809e-07, -1, -6.1232342629258e-17, 0, 14.803783416748, 4.466335773468, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/autre.mtl", },
+						mesh = "asset/gare/saumur/porte_lod0.msh",
+						name = "porte",
+						transf = { -1, -1.5099580252809e-07, -9.245826095842e-24, 0, 0, 6.1232342629258e-17, -1, 0, 1.5099580252809e-07, -1, -6.1232342629258e-17, 0, 7.8446025848389, 4.3509259223938, 0, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/autre.mtl", },
+						mesh = "asset/gare/saumur/bord_fen_g_lod0.msh",
+						name = "bord_fen_g",
+						transf = { 0.97179400920868, 0, 0, 0, 0, 0.50606697797775, 8.2448785576617e-08, 0, 0, -1.583253492754e-07, 0.97179400920868, 0, 46.002548217773, 4.4929809570313, 3.3286776542664, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/autre.mtl", },
+						mesh = "asset/gare/saumur/bord_fen_d_lod0.msh",
+						name = "bord_fen_d",
+						transf = { 0.97179400920868, 0, 0, 0, 0, 0.50606697797775, 8.2448785576617e-08, 0, 0, -1.583253492754e-07, 0.97179400920868, 0, 46.002548217773, -4.5308866500854, 3.3286776542664, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 286.36581420898,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/gare/saumur/vitre.mtl", },
+						mesh = "asset/gare/saumur/vitre_lod1.msh",
+						name = "vitre",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 0.4210547208786, -0.46021819114685, 2.3841857910156e-07, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/panneau.mtl", },
+						mesh = "asset/gare/saumur/panneau_lod1.msh",
+						name = "panneau",
+						transf = { 1, 0, 0, 0, 0, 1, 1.6292068494295e-07, 0, 0, -1.6292068494295e-07, 1, 0, 27.737062454224, -4.5348649024963, 4.7375416755676, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/batiment_c.mtl", },
+						mesh = "asset/gare/saumur/batiment_c_lod1.msh",
+						name = "batiment_c",
+						transf = { 0.74436002969742, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 52.878124237061, 5.9604644775391e-06, 2.3841857910156e-07, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/batiment_b.mtl", },
+						mesh = "asset/gare/saumur/batiment_b_lod1.msh",
+						name = "batiment_b",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 0.4210547208786, -0.46021819114685, 2.3841857910156e-07, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/batiment_a.mtl", },
+						mesh = "asset/gare/saumur/batiment_a_lod1.msh",
+						name = "batiment_a",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -27.643733978271, 1.6525682210922, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 286.36581420898,
+			visibleTo = 859.09741210938,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/gare/saumur/vitre.mtl", },
+						mesh = "asset/gare/saumur/vitre_lod2.msh",
+						name = "vitre",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 0.4210547208786, -0.46021819114685, 2.3841857910156e-07, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/panneau.mtl", },
+						mesh = "asset/gare/saumur/panneau_lod2.msh",
+						name = "panneau",
+						transf = { 1, 0, 0, 0, 0, 1, 1.6292068494295e-07, 0, 0, -1.6292068494295e-07, 1, 0, 27.737062454224, -4.5348649024963, 4.7375416755676, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/batiment_c.mtl", },
+						mesh = "asset/gare/saumur/batiment_c_lod2.msh",
+						name = "batiment_c",
+						transf = { 0.74436002969742, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 52.878124237061, 5.9604644775391e-06, 2.3841857910156e-07, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/batiment_b.mtl", },
+						mesh = "asset/gare/saumur/batiment_b_lod2.msh",
+						name = "batiment_b",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 0.4210547208786, -0.46021819114685, 2.3841857910156e-07, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/batiment_a.mtl", },
+						mesh = "asset/gare/saumur/batiment_a_lod2.msh",
+						name = "batiment_a",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -27.643733978271, 1.6525682210922, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 859.09741210938,
+			visibleTo = 2577.2922363281,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/gare/saumur/panneau.mtl", },
+						mesh = "asset/gare/saumur/panneau_lod3.msh",
+						name = "panneau",
+						transf = { 1, 0, 0, 0, 0, 1, 1.6292068494295e-07, 0, 0, -1.6292068494295e-07, 1, 0, 27.737062454224, -4.5348649024963, 4.7375416755676, 1, },
+					},
+					{
+						materials = { "asset/gare/saumur/batiment_b.mtl", },
+						mesh = "asset/gare/saumur/batiment_b_lod3.msh",
+						name = "batiment_b",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, 0.4210547208786, -0.46021819114685, 2.3841857910156e-07, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 2577.2922363281,
+			visibleTo = 7731.876953125,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end
