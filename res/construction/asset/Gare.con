@@ -6,6 +6,12 @@ local variant_04 = "asset/gare/la_baule_les_pins.mdl"
 local variant_05 = "asset/gare/saint_nazaire.mdl"
 local variant_06 = "asset/gare/ancenis.mdl"
 local variant_07 = "asset/gare/brest.mdl"
+local variant_08 = "asset/gare/lannion.mdl"
+local variant_09 = "asset/gare/landerneau.mdl"
+local variant_10 = "asset/gare/chantenay.mdl"
+local variant_11 = "asset/gare/cholet.mdl"
+local variant_12 = "asset/gare/saumur.mdl"
+local variant_13 = "asset/gare/rosporden.mdl"
 
 function data()
     return {
@@ -33,6 +39,12 @@ function data()
                             _("Saint Nazaire"),
                             _("Ancenis"),
                             _("Brest"),
+                            _("Lannion"),
+                            _("Landerneau"),
+                            _("Chantenay"),
+                            _("Cholet"),
+                            _("Saumur"),
+                            _("Rosporden"),
                         },
             },
             {
@@ -60,6 +72,12 @@ function data()
             if ( params.variant_gare == 5 ) then result.models[#result.models+1] = { id = variant_05, transf = { 1, 0, grad, 0, 0, 1, 0, 0, grad, 0, 1, 0, spacingm, shiftm, height+offsetz, 1 } } end
             if ( params.variant_gare == 6 ) then result.models[#result.models+1] = { id = variant_06, transf = { 1, 0, grad, 0, 0, 1, 0, 0, grad, 0, 1, 0, spacingm, shiftm, height+offsetz, 1 } } end
             if ( params.variant_gare == 7 ) then result.models[#result.models+1] = { id = variant_07, transf = { 1, 0, grad, 0, 0, 1, 0, 0, grad, 0, 1, 0, spacingm, shiftm, height+offsetz, 1 } } end
+            if ( params.variant_gare == 8 ) then result.models[#result.models+1] = { id = variant_08, transf = { 1, 0, grad, 0, 0, 1, 0, 0, grad, 0, 1, 0, spacingm, shiftm, height+offsetz, 1 } } end
+            if ( params.variant_gare == 9 ) then result.models[#result.models+1] = { id = variant_09, transf = { 1, 0, grad, 0, 0, 1, 0, 0, grad, 0, 1, 0, spacingm, shiftm, height+offsetz, 1 } } end
+            if ( params.variant_gare == 10 ) then result.models[#result.models+1] = { id = variant_10, transf = { 1, 0, grad, 0, 0, 1, 0, 0, grad, 0, 1, 0, spacingm, shiftm, height+offsetz, 1 } } end
+            if ( params.variant_gare == 11 ) then result.models[#result.models+1] = { id = variant_11, transf = { 1, 0, grad, 0, 0, 1, 0, 0, grad, 0, 1, 0, spacingm, shiftm, height+offsetz, 1 } } end
+            if ( params.variant_gare == 12 ) then result.models[#result.models+1] = { id = variant_12, transf = { 1, 0, grad, 0, 0, 1, 0, 0, grad, 0, 1, 0, spacingm, shiftm, height+offsetz, 1 } } end
+            if ( params.variant_gare == 13 ) then result.models[#result.models+1] = { id = variant_13, transf = { 1, 0, grad, 0, 0, 1, 0, 0, grad, 0, 1, 0, spacingm, shiftm, height+offsetz, 1 } } end
 
             result.groundFaces = {
                 {  

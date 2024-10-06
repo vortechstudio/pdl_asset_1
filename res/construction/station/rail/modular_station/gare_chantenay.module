@@ -1,0 +1,58 @@
+local transf = require "transf"
+local vec3 = require "vec3"
+local trainstationutil = require "modules/trainstationutil"
+
+function data()
+    return {
+        cost = {
+            price = -1,
+        },
+        category = {
+            categories = { "passenger buildings", "PDL", },
+        },
+        description = {
+            name = _("Gare de Chantenay"),
+            --description = _("Gare de Nantes Nord"),
+            icon = "ui/models_small/construction/station/rail/modular_station/chantenay.tga"
+        }, 
+        availability = {
+            yearFrom = 1980,
+            yearTo = 0
+        },
+        type = "rail_side_building_size1",
+        order = {
+            value = 3501,
+        },
+        metadata = {
+            era = 0,
+            level =2,
+            span = {0, 2},
+            moreCapacity = {
+                cargo = 0,
+                passenger = 50
+            }
+        },
+        updateFn = function(result, transform, tag, slotId, addModuleFn, params)
+            local config = {
+                extend = { -22.98, 22.41, -8.99, 10.84, 0, 14.14 },
+                main = "station/train/chantenay.mdl",
+
+                slotIdOffset = 5,
+                translationY = 0,
+            }
+            trainstationutil.MakeMainBuildingModule(result, transform, tag, slotId, addModuleFn, params, config)
+        end,
+        getModelsFn = function()
+		
+            local result = {
+                { 
+                    id = "station/train/chantenay.mdl",
+                    transf = transf.rotZTransl(math.rad(-90), vec3.new(10,0,-12)),
+                },
+            }
+            result.terrainAlignmentLists = { { type = "GREATER", faces =  { } } }
+            
+            return result
+        end
+    }
+end

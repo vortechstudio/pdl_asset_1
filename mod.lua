@@ -3,7 +3,7 @@
 function data()
 return {
 	info = {
-		minorVersion = 1,
+		minorVersion = 2,
 		severityAdd = "NONE",
 		severityRemove = "NONE",
 		name = _("MOD_NAME"),
@@ -12,6 +12,10 @@ return {
 		    {
 		        name = "Syltheron",
 				role = 'CREATOR',
+			},
+			{
+				name = "NTH-Z6K4",
+				role = '3D, Texture',
 			}
 		},
 		requiredMods = {

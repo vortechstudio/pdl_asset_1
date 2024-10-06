@@ -1,0 +1,112 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 22.933868408203, 5.1585140228271, 8.2873334884644, },
+		bbMin = { -22.933868408203, -5.15851354599, -5.1498413085938e-05, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 22.933868408203, 5.1585140228271, 4.1436924934387, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/gare/rosporden/batiment.mtl", },
+						mesh = "asset/gare/rosporden/batiment_lod0.msh",
+						name = "batiment",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -11.731974601746, 0.013006925582886, 0.54999995231628, 1, },
+					},
+					{
+						materials = { "asset/gare/rosporden/autre.mtl", },
+						mesh = "asset/gare/rosporden/gouttiere_lod0.msh",
+						name = "gouttiere",
+						transf = { -1.6292068494295e-07, -1, -6.1232342629258e-17, 0, 1, -1.6292068494295e-07, 1.6292068494295e-07, 0, -1.6292068494295e-07, 2.6481917583831e-14, 1, 0, -0.51475143432617, -4.9157686233521, 3.0718092918396, 1, },
+					},
+					{
+						materials = { "asset/gare/rosporden/autre.mtl", },
+						mesh = "asset/gare/rosporden/light_lod0.msh",
+						name = "light",
+						transf = { 1, 0, 0, 0, 0, 0.3420202434063, -0.93969255685806, 0, 0, 0.93969255685806, 0.3420202434063, 0, -21.778160095215, -4.9793434143066, 3.0115838050842, 1, },
+					},
+					{
+						materials = { "asset/gare/rosporden/light.mtl", },
+						mesh = "asset/gare/rosporden/light_emi_lod0.msh",
+						name = "light_emi",
+						transf = { 1, 0, 0, 0, 0, 0.3420202434063, -0.93969255685806, 0, 0, 0.93969255685806, 0.3420202434063, 0, -21.778160095215, -4.9793434143066, 3.0115838050842, 1, },
+					},
+					{
+						materials = { "asset/gare/rosporden/autre.mtl", },
+						mesh = "asset/gare/rosporden/tuile_toit_lod0.msh",
+						name = "tuile_toit",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -11.731974601746, 0.013006925582886, 0.54999995231628, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 448.62808227539,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/gare/rosporden/batiment.mtl", },
+						mesh = "asset/gare/rosporden/batiment_lod1.msh",
+						name = "batiment",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -11.731974601746, 0.013006925582886, 0.54999995231628, 1, },
+					},
+					{
+						materials = { "asset/gare/rosporden/autre.mtl", },
+						mesh = "asset/gare/rosporden/gouttiere_lod1.msh",
+						name = "gouttiere",
+						transf = { -1.6292068494295e-07, -1, -6.1232342629258e-17, 0, 1, -1.6292068494295e-07, 1.6292068494295e-07, 0, -1.6292068494295e-07, 2.6481917583831e-14, 1, 0, -0.51475143432617, -4.9157686233521, 3.0718092918396, 1, },
+					},
+					{
+						materials = { "asset/gare/rosporden/autre.mtl", },
+						mesh = "asset/gare/rosporden/light_lod1.msh",
+						name = "light",
+						transf = { 1, 0, 0, 0, 0, 0.3420202434063, -0.93969255685806, 0, 0, 0.93969255685806, 0.3420202434063, 0, -21.778160095215, -4.9793434143066, 3.0115838050842, 1, },
+					},
+					{
+						materials = { "asset/gare/rosporden/light.mtl", },
+						mesh = "asset/gare/rosporden/light_emi_lod1.msh",
+						name = "light_emi",
+						transf = { 1, 0, 0, 0, 0, 0.3420202434063, -0.93969255685806, 0, 0, 0.93969255685806, 0.3420202434063, 0, -21.778160095215, -4.9793434143066, 3.0115838050842, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 448.62808227539,
+			visibleTo = 1345.8842773438,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/gare/rosporden/batiment.mtl", },
+						mesh = "asset/gare/rosporden/batiment_lod2.msh",
+						name = "batiment",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -11.731974601746, 0.013006925582886, 0.54999995231628, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 1345.8842773438,
+			visibleTo = 4037.6528320313,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end
